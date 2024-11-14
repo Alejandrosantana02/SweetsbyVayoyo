@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweets by Vayoyo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#contact-info">Contáctenos</a>
+        <a href="#order">Ordene</a>
+    </nav>
+    
+    <header>
+        <h1>Sweets by Vayoyo</h1>
+        <p>Postres en venta caseros y artesanales</p>
+    </header>
+
+    <section class="contact-info">
+        <h2>Contáctenos</h2>
+        <p>Ordene por teléfono: <strong>809-876-1755</strong></p>
+    </section>
+    
+    <section id="menu" class="menu scroll-animate">
+        <h2>Nuestro Menú</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/galletas.jpg" alt="Galletas Gluten Free">
+                    <h3>Galletas Gluten Free</h3>
+                    <p>$50 cada una</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/cheesecake.jpg" alt="Cheesecake Vasco">
+                    <h3>Cheesecake Vasco</h3>
+                    <p>$250 por pedazo</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/brownies.jpg" alt="Brownies con Dulce de Leche">
+                    <h3>Brownies con Dulce de Leche</h3>
+                    <p>$75 cada uno</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/pie-de-limon.jpg" alt="Pie de Limón">
+                    <h3>Pie de Limón</h3>
+                    <p>$200 por pedazo</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/custard-bars.jpg" alt="Pear and Peach Custard Bars">
+                    <h3>Pear and Peach Custard Bars</h3>
+                    <p>$75 cada una</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/lemon-bar.jpg" alt="Lemon Bar">
+                    <h3>Lemon Bar</h3>
+                    <p>$100 cada una</p>
+        </div>
+    </section>
+
+    <section class="chef scroll-animate">
+        <h2>Valeria Santana</h2>
+        <div class="chef-content">
+            <img src="images/chef.png" alt="Chef of Sweets by Vayoyo">
+            <p>Nuestra talentosa chef, dedicada a ofrecerle los mejores postres con una combinación perfecta de creatividad y pasión. ¡Cada postre está elaborado con amor y atención al detalle!</p>
+        </div>
+    </section>
+
+    <section id="contact-info" class="contact-info scroll-animate">
+        <h2>Contact Us</h2>
+        <p>Order by phone: <strong>809-876-1755</strong></p>
+    </section>
+    
+    <section id="order" class="order scroll-animate">
+        <h2>Place an Order</h2>
+        <form id="orderForm" action="https://formspree.io/f/xdkozjdk" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="order">Order Details:</label>
+            <textarea id="order" name="order" rows="4" required></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sweets by Vayoyo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

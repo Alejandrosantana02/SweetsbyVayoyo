@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+}
+
+.contact-info {
+    background-color: #fcdfec;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #5baec5;
+    font-size: 1.5rem;
+}
+
+.contact-info p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: #f8c3da;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #5baec5;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.menu {
+    text-align: center;
+    padding: 2rem;
+}
+
+.menu h2 {
+    color: #5baec5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.menu-item {
+    width: 200px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    color: #f8c3da;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.menu-item p {
+    color: #333;
+    font-size: 1rem;
+}
+
+.order {
+    background-color: #f8c3da;
+    padding: 2rem;
+    text-align: center;
+}
+
+.order h2 {
+    color: #5baec5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1rem;
+    color: #333;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #5baec5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #4698a8;
+}
+
+footer {
+    background-color: #5baec5;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #5baec5;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Animation for scroll elements */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-animate.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.chef {
+    background-color: #fcdfec;
+    padding: 2rem;
+    text-align: center;
+}
+
+.chef h2 {
+    color: #5baec5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.chef-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.chef-content img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chef-content p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
